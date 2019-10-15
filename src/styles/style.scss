@@ -1,3 +1,13 @@
+
 body {
-  background-color: rgb(184, 176, 176)
+  background-image: url(./assets/images/main-foto.png);
+  background-repeat: no-repeat;
+  background-position: center -1px;
+  background-color: #29606b;
+  height: 1200px;
+}
+
+.common-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
 }

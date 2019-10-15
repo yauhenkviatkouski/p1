@@ -5,10 +5,13 @@
   "main": "webpack.config.js",
   "dependencies": {
     "node-sass": "^4.12.0",
+    "normalize.scss": "^0.1.0",
     "sass-loader": "^8.0.0"
   },
   "devDependencies": {
     "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "image-webpack-loader": "^6.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.1",
     "webpack-cli": "^3.3.9",

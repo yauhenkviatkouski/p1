@@ -1,0 +1,41 @@
+.header {
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  
+
+  font-family: 'FjallaOne-Regular';
+  
+  border: 1px solid #3175839c;
+  background-color: #3175834b;
+  
+  h1 {
+    padding-left: 30px;
+    font-size: 18pt;
+    font-weight: 400;
+    
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 303px;
+    padding-right: 17px;
+  }
+
+  .nav-bar__item {
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: 100;
+    }
+  }
+}
