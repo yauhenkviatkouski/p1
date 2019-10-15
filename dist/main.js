@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/fonts.scss":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/fonts.scss ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ./assets/fonts/FjallaOne-Regular.ttf */ \"./src/styles/assets/fonts/FjallaOne-Regular.ttf\"));\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: \\\"FjallaOne-Regular\\\";\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \"); }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/fonts.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/header.scss":
 /*!*************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/header.scss ***!
@@ -93,7 +104,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"h1 {\\n  font-family: 'FjallaOne-Regular'; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/header.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".header {\\n  height: 67px;\\n  display: flex;\\n  justify-content: space-between;\\n  padding-top: 10px;\\n  font-family: 'FjallaOne-Regular';\\n  border: 1px solid #3175839c;\\n  background-color: #3175834b; }\\n  .header h1 {\\n    padding-left: 30px;\\n    font-size: 18pt;\\n    font-weight: 400; }\\n    .header h1 a {\\n      color: white;\\n      text-decoration: none; }\\n  .header .nav-bar {\\n    display: flex;\\n    justify-content: space-around;\\n    width: 303px;\\n    padding-right: 17px; }\\n  .header .nav-bar__item {\\n    list-style-type: none; }\\n    .header .nav-bar__item a {\\n      text-decoration: none;\\n      color: white;\\n      font-size: 18px;\\n      font-weight: 100; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/header.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -115,7 +126,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ./assets/fonts/FjallaOne-Regular.ttf */ \"./src/styles/assets/fonts/FjallaOne-Regular.ttf\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(__webpack_require__(/*! ./assets/images/P1.jpg */ \"./src/styles/assets/images/P1.jpg\"));\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: \\\"FjallaOne-Regular\\\";\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \"); }\\n\\nbody {\\n  background-image: url(\" + ___CSS_LOADER_URL___1___ + \"); }\\n\\n.common-wrapper {\\n  max-width: 1170px;\\n  background-color: silver;\\n  margin: 0 auto; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ./assets/images/main-foto.png */ \"./src/styles/assets/images/main-foto.png\"));\n// Module\nexports.push([module.i, \"body {\\n  background-image: url(\" + ___CSS_LOADER_URL___0___ + \");\\n  background-repeat: no-repeat;\\n  background-position: center -1px;\\n  background-color: #29606b;\\n  height: 1200px; }\\n\\n.common-wrapper {\\n  max-width: 1170px;\\n  margin: 0 auto; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -163,7 +174,7 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/normalize.scss */ \"./src/styles/normalize.scss\");\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/header.scss */ \"./src/styles/header.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_header_scss__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/normalize.scss */ \"./src/styles/normalize.scss\");\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/header.scss */ \"./src/styles/header.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_header_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/fonts.scss */ \"./src/styles/fonts.scss\");\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_fonts_scss__WEBPACK_IMPORTED_MODULE_3__);\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -178,14 +189,25 @@ eval("module.exports = __webpack_require__.p + \"4fa3683005fa20dd058f47b9cfd411d
 
 /***/ }),
 
-/***/ "./src/styles/assets/images/P1.jpg":
-/*!*****************************************!*\
-  !*** ./src/styles/assets/images/P1.jpg ***!
-  \*****************************************/
+/***/ "./src/styles/assets/images/main-foto.png":
+/*!************************************************!*\
+  !*** ./src/styles/assets/images/main-foto.png ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"6d90978aa23172eb94f5c2f7a44ada31.jpg\";\n\n//# sourceURL=webpack:///./src/styles/assets/images/P1.jpg?");
+eval("module.exports = __webpack_require__.p + \"3453766feef3af93286d28722b96eefc.png\";\n\n//# sourceURL=webpack:///./src/styles/assets/images/main-foto.png?");
+
+/***/ }),
+
+/***/ "./src/styles/fonts.scss":
+/*!*******************************!*\
+  !*** ./src/styles/fonts.scss ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./fonts.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/fonts.scss\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/styles/fonts.scss?");
 
 /***/ }),
 
