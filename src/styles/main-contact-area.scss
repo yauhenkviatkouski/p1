@@ -64,9 +64,10 @@
     grid-template-columns: 45% 45%;
   }
 
-  input {
+  input, textarea {
     background-color: #245963;
     border: 1px solid #387d89;
+    resize: none;
   }
 
   .contact-form__name {
