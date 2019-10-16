@@ -3,55 +3,24 @@
   flex-direction: column;
   align-items: center;
 
-    h3 {
-      margin: 76px 0 10px 0;
-      padding-left: 3px;
-      font-family: 'FjallaOne-Regular';
-      font-size: 29px;
-      font-weight: 400;
-      color: white;
-    }
+  h3 {
+    margin: 76px 0 10px 0;
+    padding-left: 3px;
+    font-family: 'FjallaOne-Regular';
+    font-size: 29px;
+    font-weight: 400;
+    color: white;
+  }
 
-    h4 {
-      position: relative;
-      margin-top: 0px;
-      padding-left: 3px;
-      font-family: 'FjallaOne-Regular';
-      font-size: 21px;
-      font-weight: 400;
-      color: white;
-    }
-
-    h4:before {
-      content: '';
-      position: absolute;
-      top: 13px;
-      left: -138px;
-      height: 1px;
-      width: 122px;
-      border-top: solid 1px #387d89;
-
-      @media (max-width: 700px) {
-        display: none;
-      }
-
-    }
-
-    h4:after {
-      content: '';
-      position: absolute;
-      top: 13px;
-      right: -139px;
-      height: 1px;
-      width: 117px;
-      border-top: solid 1px #387d89;
-
-      @media (max-width: 700px) {
-        display: none;
-      }
-
-    }
-
+  h4 {
+    position: relative;
+    margin-top: 0px;
+    padding-left: 3px;
+    font-family: 'FjallaOne-Regular';
+    font-size: 21px;
+    font-weight: 400;
+    color: white;
+  }
 }
 
 .person-cards-wrapper {
@@ -67,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 45px;
-    height: 495px;
+    height: 445px;
     max-width: 370px;
     background-color: #245963;
 

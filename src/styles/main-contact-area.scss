@@ -1,0 +1,124 @@
+.contact-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  
+  .mail-picture {
+    margin-left: 3px;
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    width: 99px;
+    height: 99px;
+  }
+
+  .mail-picture:before {
+    content: url(../assets/images/contact/Mail.png);
+    position: absolute;
+    left: 22px;
+    top: 22px;
+  }
+
+  h3, h4 {
+    font-family: 'FjallaOne-Regular';
+    font-weight: 400;
+    color: white;
+    padding-left: 3px;
+  }
+
+  h3 {
+    margin: 27px 0 10px 0;
+    font-size: 29px;
+  }
+
+  h4 {
+    position: relative;
+    margin-top: 0px;
+    font-size: 21px;
+  }
+
+  .header-lines:after {
+    width: 72px;
+    right: -93px;
+
+  }
+  
+  .header-lines:before {
+    left: -100px;
+    width: 78px;
+  }
+}
+
+.contact-form {
+  display: grid;
+  width: 100%;
+  padding-top: 7px;
+  max-width: 570px;
+  grid-template-areas: 'name email' 'message message' 'button button';
+  grid-gap: 30px;
+  grid-template-rows: 46px 126px 35px;
+  grid-template-columns: 1fr 1fr;
+
+  input {
+    background-color: #245963;
+    border: 1px solid #387d89;
+  }
+
+  .contact-form__name {
+    grid-area: name;
+
+  }
+
+  .contact-form__email {
+    grid-area: email;
+
+  }
+
+  .contact-form__message {
+    grid-area: message;
+  }
+
+  .contact-form__button-submit {
+    grid-area: button;
+    position: relative;
+    width: 100px;
+    margin: 0 calc(50% - 47px);
+
+    input {
+      display: block;
+      grid-area: button;
+      background-color: #245963;
+
+      position: relative;
+      height: 36px;
+      width: 102px;
+
+      font-family: 'FjallaOne-Regular';
+      text-transform: uppercase;
+
+
+      color: white;
+    }
+
+    
+  }
+
+
+  .contact-form__button-submit:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #245963;
+    top: 28px;
+    left: 43px;
+    transform: rotate(-45deg);
+    width: 15px;
+    height: 15px;
+    border: 1px solid #387d89;
+    border-right: 0;
+    border-top: 0;
+  }
+  
+}
+
