@@ -1,19 +1,20 @@
 .header {
-  height: 67px;
+  min-height: 67px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 10px;
   
-
   font-family: 'FjallaOne-Regular';
   
   border: 1px solid #3175839c;
   background-color: #3175834b;
   
   h1 {
+    min-width: 100px;
     padding-left: 30px;
-    font-size: 18pt;
     font-weight: 400;
+    font-size: 18pt;
     
     a {
       color: white;

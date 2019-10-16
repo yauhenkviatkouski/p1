@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/buttons.scss":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/buttons.scss ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".button-arrow {\\n  position: relative;\\n  height: 42px;\\n  width: 138px;\\n  border: 2px solid white; }\\n\\n.button-arrow:after {\\n  content: \\\"\\\";\\n  display: block;\\n  position: absolute;\\n  background-color: #7a8e81;\\n  top: 35px;\\n  left: 60px;\\n  transform: rotate(-45deg);\\n  width: 15px;\\n  height: 15px;\\n  border: 2px solid white;\\n  border-right: 0;\\n  border-top: 0; }\\n\\n.button-arrow:before {\\n  content: \\\"READ MORE\\\";\\n  top: 12px;\\n  left: 33px;\\n  position: absolute;\\n  display: block;\\n  font-family: 'FjallaOne-Regular';\\n  font-size: 17px;\\n  color: white; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/buttons.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/fonts.scss":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/fonts.scss ***!
@@ -104,7 +115,18 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".header {\\n  height: 67px;\\n  display: flex;\\n  justify-content: space-between;\\n  padding-top: 10px;\\n  font-family: 'FjallaOne-Regular';\\n  border: 1px solid #3175839c;\\n  background-color: #3175834b; }\\n  .header h1 {\\n    padding-left: 30px;\\n    font-size: 18pt;\\n    font-weight: 400; }\\n    .header h1 a {\\n      color: white;\\n      text-decoration: none; }\\n  .header .nav-bar {\\n    display: flex;\\n    justify-content: space-around;\\n    width: 303px;\\n    padding-right: 17px; }\\n  .header .nav-bar__item {\\n    list-style-type: none; }\\n    .header .nav-bar__item a {\\n      text-decoration: none;\\n      color: white;\\n      font-size: 18px;\\n      font-weight: 100; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/header.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".header {\\n  min-height: 67px;\\n  display: flex;\\n  flex-wrap: wrap;\\n  justify-content: space-between;\\n  padding-top: 10px;\\n  font-family: 'FjallaOne-Regular';\\n  border: 1px solid #3175839c;\\n  background-color: #3175834b; }\\n  .header h1 {\\n    min-width: 100px;\\n    padding-left: 30px;\\n    font-weight: 400;\\n    font-size: 18pt; }\\n    .header h1 a {\\n      color: white;\\n      text-decoration: none; }\\n  .header .nav-bar {\\n    display: flex;\\n    justify-content: space-around;\\n    width: 303px;\\n    padding-right: 17px; }\\n  .header .nav-bar__item {\\n    list-style-type: none; }\\n    .header .nav-bar__item a {\\n      text-decoration: none;\\n      color: white;\\n      font-size: 18px;\\n      font-weight: 100; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/header.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main-promo-text.scss":
+/*!**********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main-promo-text.scss ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".promo-text {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  min-height: 440px;\\n  padding-top: 105px;\\n  font-family: 'FjallaOne-Regular';\\n  color: white; }\\n  .promo-text h2 {\\n    margin-bottom: 0px;\\n    padding-left: 3px;\\n    font-size: 40px;\\n    letter-spacing: 5.4px;\\n    font-weight: 400; }\\n  .promo-text h3 {\\n    margin-top: 18px;\\n    margin-bottom: 23px;\\n    padding-left: 7px;\\n    font-size: 29px;\\n    letter-spacing: 5.9px;\\n    font-weight: 400; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/main-promo-text.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -174,7 +196,7 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/normalize.scss */ \"./src/styles/normalize.scss\");\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_normalize_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/header.scss */ \"./src/styles/header.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_header_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/fonts.scss */ \"./src/styles/fonts.scss\");\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_fonts_scss__WEBPACK_IMPORTED_MODULE_3__);\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/buttons.scss */ \"./src/styles/buttons.scss\");\n/* harmony import */ var _styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/normalize.scss */ \"./src/styles/normalize.scss\");\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/header.scss */ \"./src/styles/header.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_header_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/fonts.scss */ \"./src/styles/fonts.scss\");\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/main-promo-text.scss */ \"./src/styles/main-promo-text.scss\");\n/* harmony import */ var _styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5__);\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -200,6 +222,17 @@ eval("module.exports = __webpack_require__.p + \"3453766feef3af93286d28722b96eef
 
 /***/ }),
 
+/***/ "./src/styles/buttons.scss":
+/*!*********************************!*\
+  !*** ./src/styles/buttons.scss ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./buttons.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/buttons.scss\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/styles/buttons.scss?");
+
+/***/ }),
+
 /***/ "./src/styles/fonts.scss":
 /*!*******************************!*\
   !*** ./src/styles/fonts.scss ***!
@@ -219,6 +252,17 @@ eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./header.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/header.scss\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/styles/header.scss?");
+
+/***/ }),
+
+/***/ "./src/styles/main-promo-text.scss":
+/*!*****************************************!*\
+  !*** ./src/styles/main-promo-text.scss ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./main-promo-text.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main-promo-text.scss\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/styles/main-promo-text.scss?");
 
 /***/ }),
 

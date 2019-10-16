@@ -1,0 +1,29 @@
+.promo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 440px;
+  padding-top: 105px;
+  
+  font-family: 'FjallaOne-Regular';
+  color: white;
+
+  h2 {
+    margin-bottom: 0px;
+    padding-left: 3px;
+
+    font-size: 40px;
+    letter-spacing: 5.4px;
+    font-weight: 400;
+  }
+
+  h3 {
+    margin-top: 18px;
+    margin-bottom: 23px;
+    padding-left: 7px;
+
+    font-size: 29px;
+    letter-spacing: 5.9px;
+    font-weight: 400;
+  }
+}
