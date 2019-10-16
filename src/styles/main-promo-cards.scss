@@ -21,6 +21,12 @@
       font-weight: 400;
     }
 
+    h3:before {
+      position: absolute;
+      top: -125px;
+      left: calc(50% - 51px);
+    }
+
     p {
       text-align: center;
       margin-top: 0;
@@ -46,9 +52,6 @@
 
     h3:before {
       content: url(../assets/images/promo-cards/Pencil.png);
-      position: absolute;
-      top: -125px;
-      left: calc(50% - 51px);
     }
   }
 
@@ -57,9 +60,6 @@
 
     h3:before {
       content: url(../assets/images/promo-cards/Crown.png);
-      position: absolute;
-      top: -125px;
-      left: calc(50% - 51px);
     }
   }
   .card-4 {
@@ -67,9 +67,6 @@
 
     h3:before {
       content: url(../assets/images/promo-cards/User.png);
-      position: absolute;
-      top: -125px;
-      left: calc(50% - 51px);
     }
   }
 

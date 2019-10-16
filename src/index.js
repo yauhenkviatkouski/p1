@@ -5,3 +5,4 @@ import './styles/header.scss';
 import './styles/fonts.scss';
 import './styles/main-promo-text.scss';
 import './styles/main-promo-cards.scss';
+import './styles/main-promo-persons.scss';

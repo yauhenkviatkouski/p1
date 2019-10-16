@@ -1,0 +1,148 @@
+.promo-persons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+    h3 {
+      margin: 76px 0 10px 0;
+      padding-left: 3px;
+      font-family: 'FjallaOne-Regular';
+      font-size: 29px;
+      font-weight: 400;
+      color: white;
+    }
+
+    h4 {
+      position: relative;
+      margin-top: 0px;
+      padding-left: 3px;
+      font-family: 'FjallaOne-Regular';
+      font-size: 21px;
+      font-weight: 400;
+      color: white;
+    }
+
+    h4:before {
+      content: '';
+      position: absolute;
+      top: 13px;
+      left: -138px;
+      height: 1px;
+      width: 122px;
+      border-top: solid 1px #387d89;
+
+      @media (max-width: 700px) {
+        display: none;
+      }
+
+    }
+
+    h4:after {
+      content: '';
+      position: absolute;
+      top: 13px;
+      right: -139px;
+      height: 1px;
+      width: 117px;
+      border-top: solid 1px #387d89;
+
+      @media (max-width: 700px) {
+        display: none;
+      }
+
+    }
+
+}
+
+.person-cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 37px;
+
+  .person-card {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    height: 495px;
+    max-width: 370px;
+    background-color: #245963;
+
+    .person-card__foto {
+      width: 181px;
+      height: 181px;
+      border-radius: 50%;
+    }
+    
+    .person-card__text {
+      width: 100%;
+      padding-top: 10px;
+      text-align: center;
+      font-family: 'SourceSansPro-Regular';
+      color: #5b94a0;
+      line-height: 27px;
+    }
+
+    .button-arrow  {
+      margin: 16px 0px 0 8px;
+      height: 36px;
+      width: 102px;
+      border: none;
+    }
+
+    .button-arrow:after {
+      border: none;
+      left: 44px;
+      top: 28px;
+    }
+
+    .button-arrow:before {
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      left: 20px;
+      top: 10px;
+    }
+  }
+  
+  .person-card:nth-child(1) {
+    border-top: 7px solid #e84c3d;
+
+    .person-card__foto {
+      background: url(../assets/images/promo-persons/person-1.png);
+    }
+
+    .button-arrow,
+    .button-arrow:after  {
+      background-color: #e84c3d;
+    }
+  }
+
+  .person-card:nth-child(2) {
+    border-top: 7px solid #fdbd1f;
+    
+    .person-card__foto {
+      background: url(../assets/images/promo-persons/person-2.png);
+    }
+
+    .button-arrow,
+    .button-arrow:after  {
+      background-color: #fdbd1f;
+    }
+  }
+
+  .person-card:nth-child(3) {
+    border-top: 7px solid #1bbc9b;
+    
+    .person-card__foto {
+      background: url(../assets/images/promo-persons/person-3.png);
+    }
+
+    .button-arrow,
+    .button-arrow:after  {
+      background-color: #1bbc9b;
+    }
+  }
+}
