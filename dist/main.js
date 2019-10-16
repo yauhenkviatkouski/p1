@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".button-arrow {\\n  position: relative;\\n  height: 42px;\\n  width: 138px;\\n  border: 2px solid white; }\\n\\n.button-arrow:after {\\n  content: \\\"\\\";\\n  display: block;\\n  position: absolute;\\n  background-color: #7a8e81;\\n  top: 35px;\\n  left: 60px;\\n  transform: rotate(-45deg);\\n  width: 15px;\\n  height: 15px;\\n  border: 2px solid white;\\n  border-right: 0;\\n  border-top: 0; }\\n\\n.button-arrow:before {\\n  content: \\\"READ MORE\\\";\\n  top: 12px;\\n  left: 33px;\\n  position: absolute;\\n  display: block;\\n  font-family: 'FjallaOne-Regular';\\n  font-size: 17px;\\n  color: white; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/buttons.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".button-arrow {\\n  position: relative;\\n  height: 42px;\\n  width: 138px;\\n  border: 2px solid white;\\n  margin-bottom: 30px; }\\n\\n.button-arrow:after {\\n  content: \\\"\\\";\\n  display: block;\\n  position: absolute;\\n  background-color: #7a8e81;\\n  top: 35px;\\n  left: 60px;\\n  transform: rotate(-45deg);\\n  width: 15px;\\n  height: 15px;\\n  border: 2px solid white;\\n  border-right: 0;\\n  border-top: 0; }\\n\\n.button-arrow:before {\\n  content: \\\"READ MORE\\\";\\n  top: 12px;\\n  left: 33px;\\n  position: absolute;\\n  display: block;\\n  font-family: 'FjallaOne-Regular';\\n  font-size: 17px;\\n  color: white; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/buttons.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ./assets/fonts/FjallaOne-Regular.ttf */ \"./src/styles/assets/fonts/FjallaOne-Regular.ttf\"));\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: \\\"FjallaOne-Regular\\\";\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \"); }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/fonts.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ../assets/fonts/FjallaOne-Regular.ttf */ \"./src/assets/fonts/FjallaOne-Regular.ttf\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(__webpack_require__(/*! ../assets/fonts/SourceSansPro-Regular.ttf */ \"./src/assets/fonts/SourceSansPro-Regular.ttf\"));\n// Module\nexports.push([module.i, \"@font-face {\\n  font-family: 'FjallaOne-Regular';\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \"); }\\n\\n@font-face {\\n  font-family: 'SourceSansPro-Regular';\\n  src: url(\" + ___CSS_LOADER_URL___1___ + \"); }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/fonts.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -119,6 +119,17 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main-promo-cards.scss":
+/*!***********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main-promo-cards.scss ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ../assets/images/promo-cards/Chat.png */ \"./src/assets/images/promo-cards/Chat.png\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(__webpack_require__(/*! ../assets/images/promo-cards/Pencil.png */ \"./src/assets/images/promo-cards/Pencil.png\"));\nvar ___CSS_LOADER_URL___2___ = getUrl(__webpack_require__(/*! ../assets/images/promo-cards/Crown.png */ \"./src/assets/images/promo-cards/Crown.png\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(__webpack_require__(/*! ../assets/images/promo-cards/User.png */ \"./src/assets/images/promo-cards/User.png\"));\n// Module\nexports.push([module.i, \".promo-cards {\\n  display: grid;\\n  grid-template-rows: 1fr 1fr;\\n  grid-template-columns: 1fr 1fr;\\n  min-height: 672px;\\n  color: white; }\\n  .promo-cards div {\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    padding-top: 164px; }\\n    .promo-cards div h3 {\\n      position: relative;\\n      font-family: 'FjallaOne-Regular';\\n      margin-top: 18px;\\n      margin-bottom: 5px;\\n      font-size: 29px;\\n      font-weight: 400; }\\n    .promo-cards div p {\\n      text-align: center;\\n      margin-top: 0;\\n      padding: 0 62px 0 47px;\\n      font-family: 'SourceSansPro-Regular'; }\\n  .promo-cards .card-1 {\\n    background-color: #e84c3d; }\\n    .promo-cards .card-1 h3:before {\\n      content: url(\" + ___CSS_LOADER_URL___0___ + \");\\n      position: absolute;\\n      top: -125px;\\n      left: calc(50% - 51px); }\\n  .promo-cards .card-2 {\\n    background-color: #fdbd1f; }\\n    .promo-cards .card-2 h3:before {\\n      content: url(\" + ___CSS_LOADER_URL___1___ + \");\\n      position: absolute;\\n      top: -125px;\\n      left: calc(50% - 51px); }\\n  .promo-cards .card-3 {\\n    background-color: #1bbc9b; }\\n    .promo-cards .card-3 h3:before {\\n      content: url(\" + ___CSS_LOADER_URL___2___ + \");\\n      position: absolute;\\n      top: -125px;\\n      left: calc(50% - 51px); }\\n  .promo-cards .card-4 {\\n    background-color: #9b58b5; }\\n    .promo-cards .card-4 h3:before {\\n      content: url(\" + ___CSS_LOADER_URL___3___ + \");\\n      position: absolute;\\n      top: -125px;\\n      left: calc(50% - 51px); }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/main-promo-cards.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main-promo-text.scss":
 /*!**********************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main-promo-text.scss ***!
@@ -126,7 +137,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".promo-text {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  min-height: 440px;\\n  padding-top: 105px;\\n  font-family: 'FjallaOne-Regular';\\n  color: white; }\\n  .promo-text h2 {\\n    margin-bottom: 0px;\\n    padding-left: 3px;\\n    font-size: 40px;\\n    letter-spacing: 5.4px;\\n    font-weight: 400; }\\n  .promo-text h3 {\\n    margin-top: 18px;\\n    margin-bottom: 23px;\\n    padding-left: 7px;\\n    font-size: 29px;\\n    letter-spacing: 5.9px;\\n    font-weight: 400; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/main-promo-text.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".promo-text {\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  min-height: 336px;\\n  padding-top: 105px;\\n  font-family: 'FjallaOne-Regular';\\n  color: white; }\\n  .promo-text h2 {\\n    margin-bottom: 0px;\\n    padding-left: 3px;\\n    font-size: 40px;\\n    letter-spacing: 5.4px;\\n    font-weight: 400; }\\n  .promo-text h3 {\\n    margin-top: 18px;\\n    margin-bottom: 23px;\\n    padding-left: 7px;\\n    font-size: 29px;\\n    letter-spacing: 5.9px;\\n    font-weight: 400; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/main-promo-text.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -148,7 +159,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ./assets/images/main-foto.png */ \"./src/styles/assets/images/main-foto.png\"));\n// Module\nexports.push([module.i, \"body {\\n  background-image: url(\" + ___CSS_LOADER_URL___0___ + \");\\n  background-repeat: no-repeat;\\n  background-position: center -1px;\\n  background-color: #29606b;\\n  height: 1200px; }\\n\\n.common-wrapper {\\n  max-width: 1170px;\\n  margin: 0 auto; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ../assets/images/main-foto.png */ \"./src/assets/images/main-foto.png\"));\n// Module\nexports.push([module.i, \"body {\\n  background-image: url(\" + ___CSS_LOADER_URL___0___ + \");\\n  background-repeat: no-repeat;\\n  background-position: center -1px;\\n  background-color: #29606b;\\n  height: 1200px; }\\n\\n.common-wrapper {\\n  max-width: 1170px;\\n  margin: 0 auto; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -188,6 +199,83 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 
 /***/ }),
 
+/***/ "./src/assets/fonts/FjallaOne-Regular.ttf":
+/*!************************************************!*\
+  !*** ./src/assets/fonts/FjallaOne-Regular.ttf ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"4fa3683005fa20dd058f47b9cfd411df.ttf\";\n\n//# sourceURL=webpack:///./src/assets/fonts/FjallaOne-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/SourceSansPro-Regular.ttf":
+/*!****************************************************!*\
+  !*** ./src/assets/fonts/SourceSansPro-Regular.ttf ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"c1678b46f7dd3f50ceac94ed4e0ad01a.ttf\";\n\n//# sourceURL=webpack:///./src/assets/fonts/SourceSansPro-Regular.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/images/main-foto.png":
+/*!*****************************************!*\
+  !*** ./src/assets/images/main-foto.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"3453766feef3af93286d28722b96eefc.png\";\n\n//# sourceURL=webpack:///./src/assets/images/main-foto.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/promo-cards/Chat.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/promo-cards/Chat.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"095ebd3df32299673d0f60086b589e16.png\";\n\n//# sourceURL=webpack:///./src/assets/images/promo-cards/Chat.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/promo-cards/Crown.png":
+/*!*************************************************!*\
+  !*** ./src/assets/images/promo-cards/Crown.png ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"998b04be74ac21b64ae3a35b71b56b75.png\";\n\n//# sourceURL=webpack:///./src/assets/images/promo-cards/Crown.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/promo-cards/Pencil.png":
+/*!**************************************************!*\
+  !*** ./src/assets/images/promo-cards/Pencil.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"da939bc3306687838f6623e131bbef55.png\";\n\n//# sourceURL=webpack:///./src/assets/images/promo-cards/Pencil.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/promo-cards/User.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/promo-cards/User.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"e1d6fc1928bd47f25d8e0210f9820587.png\";\n\n//# sourceURL=webpack:///./src/assets/images/promo-cards/User.png?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -196,29 +284,7 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/buttons.scss */ \"./src/styles/buttons.scss\");\n/* harmony import */ var _styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/normalize.scss */ \"./src/styles/normalize.scss\");\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/header.scss */ \"./src/styles/header.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_header_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/fonts.scss */ \"./src/styles/fonts.scss\");\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/main-promo-text.scss */ \"./src/styles/main-promo-text.scss\");\n/* harmony import */ var _styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5__);\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/styles/assets/fonts/FjallaOne-Regular.ttf":
-/*!*******************************************************!*\
-  !*** ./src/styles/assets/fonts/FjallaOne-Regular.ttf ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"4fa3683005fa20dd058f47b9cfd411df.ttf\";\n\n//# sourceURL=webpack:///./src/styles/assets/fonts/FjallaOne-Regular.ttf?");
-
-/***/ }),
-
-/***/ "./src/styles/assets/images/main-foto.png":
-/*!************************************************!*\
-  !*** ./src/styles/assets/images/main-foto.png ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"3453766feef3af93286d28722b96eefc.png\";\n\n//# sourceURL=webpack:///./src/styles/assets/images/main-foto.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.scss */ \"./src/styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/buttons.scss */ \"./src/styles/buttons.scss\");\n/* harmony import */ var _styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_buttons_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/normalize.scss */ \"./src/styles/normalize.scss\");\n/* harmony import */ var _styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_normalize_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/header.scss */ \"./src/styles/header.scss\");\n/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_header_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/fonts.scss */ \"./src/styles/fonts.scss\");\n/* harmony import */ var _styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_fonts_scss__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/main-promo-text.scss */ \"./src/styles/main-promo-text.scss\");\n/* harmony import */ var _styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_main_promo_text_scss__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _styles_main_promo_cards_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/main-promo-cards.scss */ \"./src/styles/main-promo-cards.scss\");\n/* harmony import */ var _styles_main_promo_cards_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_main_promo_cards_scss__WEBPACK_IMPORTED_MODULE_6__);\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -252,6 +318,17 @@ eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./header.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/header.scss\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/styles/header.scss?");
+
+/***/ }),
+
+/***/ "./src/styles/main-promo-cards.scss":
+/*!******************************************!*\
+  !*** ./src/styles/main-promo-cards.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./main-promo-cards.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main-promo-cards.scss\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/styles/main-promo-cards.scss?");
 
 /***/ }),
 

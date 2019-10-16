@@ -1,0 +1,77 @@
+.promo-cards {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  min-height: 672px;
+
+  color: white;
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 164px;
+    
+    h3 {
+      position: relative;
+      font-family: 'FjallaOne-Regular';
+      margin-top: 18px;
+      margin-bottom: 5px;
+      font-size: 29px;
+      font-weight: 400;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 0;
+      padding: 0 62px 0 47px;
+      font-family: 'SourceSansPro-Regular';
+    }
+
+  }
+
+  .card-1 {
+    background-color: #e84c3d;
+
+    h3:before {
+      content: url(../assets/images/promo-cards/Chat.png);
+      position: absolute;
+      top: -125px;
+      left: calc(50% - 51px);
+    }
+  }
+
+  .card-2 {
+    background-color: #fdbd1f;
+
+    h3:before {
+      content: url(../assets/images/promo-cards/Pencil.png);
+      position: absolute;
+      top: -125px;
+      left: calc(50% - 51px);
+    }
+  }
+
+  .card-3 {
+    background-color: #1bbc9b;
+
+    h3:before {
+      content: url(../assets/images/promo-cards/Crown.png);
+      position: absolute;
+      top: -125px;
+      left: calc(50% - 51px);
+    }
+  }
+  .card-4 {
+    background-color: #9b58b5;
+
+    h3:before {
+      content: url(../assets/images/promo-cards/User.png);
+      position: absolute;
+      top: -125px;
+      left: calc(50% - 51px);
+    }
+  }
+
+
+}
