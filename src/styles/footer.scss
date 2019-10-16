@@ -11,6 +11,12 @@ footer {
     margin-top: 50px;
     position: relative;
 
+    @media (max-width: 400px) {
+      .footer-contacts__tel {
+        display: block;
+      }
+    }
+
     a {
       position: relative;
       font-family: 'SourceSansPro-Regular';
@@ -24,15 +30,15 @@ footer {
     .footer-contacts__email {
       margin-left: 10px;
     }
-    
+
     .footer-contacts__facebook:before {
       content: url(../assets/images/footer/facebook.png);
       position: absolute;
       top: -9px;
       left: -24px;
-      
+
     }
-  
+
     .footer-contacts__twitter:before {
       content: url(../assets/images/footer/twitter.png);
       position: absolute;
@@ -49,6 +55,10 @@ footer {
     height: 1px;
     width: 282px;
     border-top: solid 1px #387d89;
+
+    @media (max-width: 400px) {
+      display: none;
+    }
   }
 
   .footer-copyright {

@@ -4,6 +4,10 @@
   width: 138px;
   border: 2px solid white;
   margin-bottom: 30px;
+
+  @media (max-width: 690px) {
+    background-color: #7a8e81;
+  }
 }
 
 .button-arrow:after {
@@ -19,6 +23,7 @@
   border: 2px solid white;
   border-right: 0;
   border-top: 0;
+
 }
 
 .button-arrow:before {

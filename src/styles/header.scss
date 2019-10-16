@@ -4,18 +4,18 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 10px;
-  
+
   font-family: 'FjallaOne-Regular';
-  
+
   border: 1px solid #3175839c;
   background-color: #3175834b;
-  
+
   h1 {
     min-width: 100px;
     padding-left: 30px;
     font-weight: 400;
     font-size: 18pt;
-    
+
     a {
       color: white;
       text-decoration: none;
@@ -27,6 +27,12 @@
     justify-content: space-around;
     width: 303px;
     padding-right: 17px;
+
+    @media (max-width: 675px) {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
   }
 
   .nav-bar__item {

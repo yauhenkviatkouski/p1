@@ -3,15 +3,18 @@
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   min-height: 672px;
-
   color: white;
-  
+
+  @media (max-width: 675px) {
+    display: block;
+  }
+
   div {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 164px;
-    
+
     h3 {
       position: relative;
       font-family: 'FjallaOne-Regular';
