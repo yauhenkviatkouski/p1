@@ -8,8 +8,8 @@ footer {
   background-color: #245963;
 
   .footer-contacts {
-    margin-top: 50px;
     position: relative;
+    margin-top: 50px;
 
     @media (max-width: 400px) {
       .footer-contacts__tel {
@@ -19,12 +19,12 @@ footer {
 
     a {
       position: relative;
+      margin: 0 19px;
       font-family: 'SourceSansPro-Regular';
       font-size: 15px;
       font-weight: 400;
       color: white;
       text-decoration: none;
-      margin: 0 19px;
     }
 
     .footer-contacts__email {

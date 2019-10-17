@@ -1,12 +1,10 @@
 .header {
-  min-height: 67px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  min-height: 67px;
   padding-top: 10px;
-
   font-family: 'FjallaOne-Regular';
-
   border: 1px solid #3175839c;
   background-color: #3175834b;
 
@@ -32,7 +30,6 @@
       padding-left: 0px;
       padding-right: 0px;
     }
-
   }
 
   .nav-bar__item {

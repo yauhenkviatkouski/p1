@@ -1,10 +1,1 @@
 import './styles/style.scss';
-import './styles/common-elements.scss';
-import './styles/normalize.scss';
-import './styles/header.scss';
-import './styles/fonts.scss';
-import './styles/main-promo-text.scss';
-import './styles/main-promo-cards.scss';
-import './styles/main-promo-persons.scss';
-import './styles/main-contact-area.scss';
-import './styles/footer.scss';

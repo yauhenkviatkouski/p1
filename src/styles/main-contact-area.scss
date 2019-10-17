@@ -6,11 +6,11 @@
 
   .mail-picture {
     margin-left: 3px;
-    position: relative;
-    background-color: white;
-    border-radius: 50%;
     width: 99px;
     height: 99px;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
   }
 
   .mail-picture:before {
@@ -21,21 +21,22 @@
   }
 
   h3, h4 {
-    font-family: 'FjallaOne-Regular';
-    font-weight: 400;
-    color: white;
     padding-left: 3px;
+    font-family: 'FjallaOne-Regular';
+    color: white;
   }
-
+  
   h3 {
     margin: 27px 0 10px 0;
     font-size: 29px;
+    font-weight: 400;
   }
 
   h4 {
     position: relative;
     margin-top: 0px;
     font-size: 21px;
+    font-weight: 300;
   }
 
   .header-lines:after {
@@ -72,12 +73,10 @@
 
   .contact-form__name {
     grid-area: name;
-
   }
 
   .contact-form__email {
     grid-area: email;
-
   }
 
   .contact-form__message {
@@ -92,38 +91,30 @@
 
     input {
       display: block;
-      grid-area: button;
-      background-color: #245963;
-
       position: relative;
+      grid-area: button;
       height: 36px;
       width: 102px;
-
+      background-color: #245963;
       font-family: 'FjallaOne-Regular';
       text-transform: uppercase;
-
-
       color: white;
     }
-
-
   }
-
 
   .contact-form__button-submit:after {
     content: "";
     display: block;
     position: absolute;
-    background-color: #245963;
     top: 28px;
     left: 43px;
-    transform: rotate(-45deg);
     width: 15px;
     height: 15px;
+    transform: rotate(-45deg);
     border: 1px solid #387d89;
     border-right: 0;
     border-top: 0;
+    background-color: #245963;
   }
-
 }
 

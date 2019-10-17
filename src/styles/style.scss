@@ -1,4 +1,14 @@
 
+@import './common-elements.scss';
+@import './normalize.scss';
+@import './header.scss';
+@import './fonts.scss';
+@import './main-promo-text.scss';
+@import './main-promo-cards.scss';
+@import './main-promo-persons.scss';
+@import './main-contact-area.scss';
+@import './footer.scss';
+
 body {
   background-image: url(../assets/images/main-foto.png);
   background-repeat: no-repeat;
@@ -7,7 +17,7 @@ body {
 }
 
 .common-wrapper {
-  max-width: 1170px;
   margin: 0 auto;
+  max-width: 1170px;
 }
 

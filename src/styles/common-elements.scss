@@ -12,14 +12,14 @@
 
 .button-arrow:after {
   content: "";
-  display: block;
   position: absolute;
-  background-color: #7a8e81;
   top: 35px;
   left: 60px;
-  transform: rotate(-45deg);
+  display: block;
   width: 15px;
   height: 15px;
+  background-color: #7a8e81;
+  transform: rotate(-45deg);
   border: 2px solid white;
   border-right: 0;
   border-top: 0;
@@ -28,9 +28,9 @@
 
 .button-arrow:before {
   content: "READ MORE";
+  position: absolute;
   top: 12px;
   left: 33px;
-  position: absolute;
   display: block;
   font-family: 'FjallaOne-Regular';
   font-size: 17px;
@@ -50,7 +50,6 @@
   @media (max-width: 700px) {
     display: none;
   }
-
 }
 
 .header-lines:after {
