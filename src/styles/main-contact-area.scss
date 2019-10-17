@@ -20,18 +20,18 @@
     top: 22px;
   }
 
-  h3, h4 {
+  &-h3, &-h4 {
     padding-left: 3px;
     color: white;
   }
   
-  h3 {
+  &-h3 {
     margin: 27px 0 10px 0;
     font-size: 29px;
     font-weight: 400;
   }
 
-  h4 {
+  &-h4 {
     position: relative;
     margin-top: 0px;
     font-size: 21px;
@@ -85,7 +85,7 @@
     width: 100px;
     margin: 0 calc(50% - 47px);
 
-    input {
+    .contact-form__input {
       display: block;
       position: relative;
       grid-area: button;

@@ -4,11 +4,11 @@
   width: 138px;
   border: 2px solid white;
   text-decoration: none;
-  
+
   @media (max-width: 690px) {
     background-color: #7a8e81;
   }
-  
+
   &__text {
     padding: 12px 0 0 34px;
     color: white;
@@ -31,18 +31,6 @@
     }
   }
 }
-
-
-// .button-arrow__text:before {
-//   content: "READ MORE";
-//   position: absolute;
-//   top: 12px;
-//   left: 33px;
-//   display: block;
-//   font-size: 17px;
-//   color: white;
-// }
-
 
 .header-lines:before {
   content: '';

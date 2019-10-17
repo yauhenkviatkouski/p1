@@ -9,13 +9,13 @@
     display: block;
   }
 
-  div {
+  .promo-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 164px;
 
-    h3 {
+    &-h3 {
       position: relative;
       margin-top: 18px;
       margin-bottom: 5px;
@@ -23,13 +23,13 @@
       font-weight: 400;
     }
 
-    h3:before {
+    &-h3:before {
       position: absolute;
       top: -125px;
       left: calc(50% - 51px);
     }
 
-    p {
+    &-p {
       margin-top: 0;
       padding: 0 62px 0 47px;
       text-align: center;
@@ -38,10 +38,10 @@
 
   }
 
-  .card-1 {
+  .promo-card_red {
     background-color: #e84c3d;
 
-    h3:before {
+    .promo-card-h3:before {
       content: url(../assets/images/promo-cards/Chat.png);
       position: absolute;
       top: -125px;
@@ -49,25 +49,26 @@
     }
   }
 
-  .card-2 {
+  .promo-card_yellow {
     background-color: #fdbd1f;
 
-    h3:before {
+    .promo-card-h3:before {
       content: url(../assets/images/promo-cards/Pencil.png);
     }
   }
 
-  .card-3 {
+  .promo-card_green {
     background-color: #1bbc9b;
 
-    h3:before {
+    .promo-card-h3:before {
       content: url(../assets/images/promo-cards/Crown.png);
     }
   }
-  .card-4 {
+
+  .promo-card_purple {
     background-color: #9b58b5;
 
-    h3:before {
+    .promo-card-h3:before {
       content: url(../assets/images/promo-cards/User.png);
     }
   }

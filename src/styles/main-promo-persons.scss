@@ -4,15 +4,15 @@
   align-items: center;
   text-align: center;
   color: white;
-  
-  h3 {
+
+  &-h3 {
     margin: 76px 0 10px 0;
     padding-left: 3px;
     font-size: 29px;
     font-weight: 400;
   }
 
-  h4 {
+  &-h4 {
     position: relative;
     margin-top: 0px;
     padding-left: 3px;
@@ -71,21 +71,20 @@
       border: none;
     }
 
-    .button-arrow:after {
-      border: none;
-      left: 44px;
-      top: 28px;
+    .button-arrow__text {
+      padding: 10px;
+      font-size: 15px;
     }
 
-    .button-arrow:before {
-      left: 20px;
-      top: 10px;
-      font-size: 14px;
-      letter-spacing: 0.5px;
+    .button-arrow__text:after {
+      border: none;
+      top: 29px;
+      left: 44px;
+      border: none;
     }
   }
 
-  .person-card:nth-child(1) {
+  .person-card_red {
     border-top: 7px solid #e84c3d;
 
     .person-card__foto {
@@ -93,12 +92,12 @@
     }
 
     .button-arrow,
-    .button-arrow:after  {
+    .button-arrow__text:after  {
       background-color: #e84c3d;
     }
   }
 
-  .person-card:nth-child(2) {
+  .person-card_yellow {
     border-top: 7px solid #fdbd1f;
 
     @media (min-width: 940px) {
@@ -110,12 +109,12 @@
     }
 
     .button-arrow,
-    .button-arrow:after  {
+    .button-arrow__text:after  {
       background-color: #fdbd1f;
     }
   }
 
-  .person-card:nth-child(3) {
+  .person-card_green {
     border-top: 7px solid #1bbc9b;
 
     .person-card__foto {
@@ -123,8 +122,14 @@
     }
 
     .button-arrow,
-    .button-arrow:after  {
+    .button-arrow__text:after  {
       background-color: #1bbc9b;
+    }
+  }
+
+  .person-card_margin {
+    @media (min-width: 940px) {
+      margin: 0 8px;
     }
   }
 }

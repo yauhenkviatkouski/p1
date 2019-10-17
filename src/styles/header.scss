@@ -7,13 +7,13 @@
   border: 1px solid #3175839c;
   background-color: #3175834b;
 
-  h1 {
+  .header-h1 {
     min-width: 100px;
     padding-left: 30px;
     font-weight: 400;
     font-size: 18pt;
 
-    a {
+    &__link {
       color: white;
       text-decoration: none;
     }
@@ -34,7 +34,7 @@
   .nav-bar__item {
     list-style-type: none;
 
-    a {
+    .nav-bar__link {
       text-decoration: none;
       color: white;
       font-size: 18px;

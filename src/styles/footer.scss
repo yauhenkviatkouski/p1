@@ -1,4 +1,4 @@
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@ footer {
       }
     }
 
-    a {
+    &__email, &__facebook, &__twitter, &__tel,  {
       position: relative;
       margin: 0 19px;
       font-family: 'SourceSansPro-Regular';
@@ -67,7 +67,7 @@ footer {
     color: white;
     font-size: 16.25px;
 
-    a {
+    &__link {
       text-decoration: none;
       color: #fdbd1f;
     }
