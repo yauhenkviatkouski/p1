@@ -52,17 +52,14 @@
 
 .contact-form {
   display: grid;
+  justify-content: center;
   width: 100%;
   padding-top: 7px;
-  max-width: 570px;
+  max-width: 600px;
   grid-template-areas: 'name email' 'message message' 'button button';
   grid-gap: 30px;
   grid-template-rows: 46px 126px 35px;
-  grid-template-columns: 1fr 1fr;
-
-  @media (max-width: 420px) {
-    grid-template-columns: 45% 45%;
-  }
+  grid-template-columns: 45% 45%;
 
   input, textarea {
     background-color: #245963;
