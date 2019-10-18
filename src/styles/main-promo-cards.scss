@@ -15,7 +15,7 @@
     align-items: center;
     padding-top: 60px;
 
-    &-h3 {
+    &-title {
       position: relative;
       margin-top: 18px;
       margin-bottom: 5px;
@@ -23,36 +23,33 @@
       font-weight: 400;
     }
 
-    &-h3:before {
+    &-title:before {
       position: absolute;
       top: -125px;
       left: calc(50% - 51px);
     }
 
-    &-p {
+    &-text {
       margin-top: 0;
       padding: 0 62px 0 47px;
       text-align: center;
       font-family: 'SourceSansPro-Regular';
     }
 
+    &_red {
+      background-color: #e84c3d;
+    }
+  
+    &_yellow {
+      background-color: #fdbd1f;
+    }
+  
+    &_green {
+      background-color: #1bbc9b;
+    }
+  
+    &_purple {
+      background-color: #9b58b5;
+    }
   }
-
-  .promo-card_red {
-    background-color: #e84c3d;
-  }
-
-  .promo-card_yellow {
-    background-color: #fdbd1f;
-  }
-
-  .promo-card_green {
-    background-color: #1bbc9b;
-  }
-
-  .promo-card_purple {
-    background-color: #9b58b5;
-  }
-
-
 }

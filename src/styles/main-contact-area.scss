@@ -11,27 +11,28 @@
     border-radius: 50%;
     position: relative;
     background-color: white;
+    
+    &:before {
+      content: url(../assets/images/contact/Mail.png);
+      position: absolute;
+      left: 22px;
+      top: 22px;
+    }
   }
 
-  .mail-picture:before {
-    content: url(../assets/images/contact/Mail.png);
-    position: absolute;
-    left: 22px;
-    top: 22px;
-  }
 
-  &-h3, &-h4 {
+  &-title, &-subtitle {
     padding-left: 3px;
     color: white;
   }
   
-  &-h3 {
+  &-title {
     margin: 27px 0 10px 0;
     font-size: 29px;
     font-weight: 400;
   }
 
-  &-h4 {
+  &-subtitle {
     position: relative;
     margin-top: 0px;
     font-size: 21px;
@@ -61,55 +62,56 @@
   grid-template-rows: 46px 126px 35px;
   grid-template-columns: 45% 45%;
 
-  input, textarea {
+  &__name, &__email, &__message {
     background-color: #245963;
     border: 1px solid #387d89;
     resize: none;
   }
 
-  .contact-form__name {
+  &__name {
     grid-area: name;
   }
 
-  .contact-form__email {
+  &__email {
     grid-area: email;
   }
 
-  .contact-form__message {
+  &__message {
     grid-area: message;
   }
 
-  .contact-form__button-submit {
+  &__button-submit {
     grid-area: button;
     position: relative;
     width: 100px;
     margin: 0 calc(50% - 47px);
 
-    .contact-form__input {
+    &:after {
+      content: "";
       display: block;
-      position: relative;
-      grid-area: button;
-      height: 36px;
-      width: 102px;
+      position: absolute;
+      top: 28px;
+      left: 43px;
+      width: 15px;
+      height: 15px;
+      transform: rotate(-45deg);
+      border: 1px solid #387d89;
+      border-right: 0;
+      border-top: 0;
       background-color: #245963;
-      text-transform: uppercase;
-      color: white;
     }
   }
-
-  .contact-form__button-submit:after {
-    content: "";
+  
+  &__input {
     display: block;
-    position: absolute;
-    top: 28px;
-    left: 43px;
-    width: 15px;
-    height: 15px;
-    transform: rotate(-45deg);
+    position: relative;
+    grid-area: button;
+    height: 36px;
+    width: 102px;
     border: 1px solid #387d89;
-    border-right: 0;
-    border-top: 0;
     background-color: #245963;
+    text-transform: uppercase;
+    color: white;
   }
 }
 

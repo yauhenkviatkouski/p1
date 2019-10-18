@@ -5,14 +5,14 @@
   text-align: center;
   color: white;
 
-  &-h3 {
+  &-title {
     margin: 76px 0 10px 0;
     padding-left: 3px;
     font-size: 29px;
     font-weight: 400;
   }
 
-  &-h4 {
+  &-subtitle {
     position: relative;
     margin-top: 0px;
     padding-left: 3px;
@@ -49,13 +49,18 @@
       max-width: none;
     }
 
-    .person-card__foto {
+    &__foto {
       width: 181px;
       height: 181px;
+      overflow: hidden;
       border-radius: 50%;
     }
 
-    .person-card__text {
+    &__source {
+      width: 181px;
+    }
+
+    &__text {
       width: 100%;
       padding-top: 10px;
       font-family: 'SourceSansPro-Regular';
@@ -69,55 +74,54 @@
       height: 36px;
       width: 102px;
       border: none;
+
+      &__text {
+        padding: 10px;
+        font-size: 15px;
+      }
+  
+      &__text:after {
+        border: none;
+        top: 29px;
+        left: 44px;
+        border: none;
+      }
     }
 
-    .button-arrow__text {
-      padding: 10px;
-      font-size: 15px;
+    &_red {
+      border-top: 7px solid #e84c3d;
+  
+      .button-arrow,
+      .button-arrow__text:after  {
+        background-color: #e84c3d;
+      }
     }
-
-    .button-arrow__text:after {
-      border: none;
-      top: 29px;
-      left: 44px;
-      border: none;
+    &_yellow {
+      border-top: 7px solid #fdbd1f;
+  
+      @media (min-width: 940px) {
+        margin: 0 8px;
+      }
+  
+      .button-arrow,
+      .button-arrow__text:after  {
+        background-color: #fdbd1f;
+      }
     }
-  }
-
-  .person-card_red {
-    border-top: 7px solid #e84c3d;
-
-    .button-arrow,
-    .button-arrow__text:after  {
-      background-color: #e84c3d;
+  
+    &_green {
+      border-top: 7px solid #1bbc9b;
+  
+      .button-arrow,
+      .button-arrow__text:after  {
+        background-color: #1bbc9b;
+      }
     }
-  }
-
-  .person-card_yellow {
-    border-top: 7px solid #fdbd1f;
-
-    @media (min-width: 940px) {
-      margin: 0 8px;
-    }
-
-    .button-arrow,
-    .button-arrow__text:after  {
-      background-color: #fdbd1f;
-    }
-  }
-
-  .person-card_green {
-    border-top: 7px solid #1bbc9b;
-
-    .button-arrow,
-    .button-arrow__text:after  {
-      background-color: #1bbc9b;
-    }
-  }
-
-  .person-card_margin {
-    @media (min-width: 940px) {
-      margin: 0 8px;
+  
+    &_margin {
+      @media (min-width: 940px) {
+        margin: 0 8px;
+      }
     }
   }
 }

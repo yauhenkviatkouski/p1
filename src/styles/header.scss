@@ -7,7 +7,7 @@
   border: 1px solid #3175839c;
   background-color: #3175834b;
 
-  .header-h1 {
+  &-title {
     min-width: 100px;
     padding-left: 30px;
     font-weight: 400;
@@ -25,20 +25,21 @@
     width: 303px;
     padding-right: 17px;
 
+    &__item {
+      list-style-type: none;
+    }
+
+    &__link {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: 100;
+    }
+
     @media (max-width: 675px) {
       padding-left: 0px;
       padding-right: 0px;
     }
   }
 
-  .nav-bar__item {
-    list-style-type: none;
-
-    .nav-bar__link {
-      text-decoration: none;
-      color: white;
-      font-size: 18px;
-      font-weight: 100;
-    }
-  }
 }
