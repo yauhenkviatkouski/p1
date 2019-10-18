@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 164px;
+    padding-top: 60px;
 
     &-h3 {
       position: relative;
@@ -40,37 +40,18 @@
 
   .promo-card_red {
     background-color: #e84c3d;
-
-    .promo-card-h3:before {
-      content: url(../assets/images/promo-cards/Chat.png);
-      position: absolute;
-      top: -125px;
-      left: calc(50% - 51px);
-    }
   }
 
   .promo-card_yellow {
     background-color: #fdbd1f;
-
-    .promo-card-h3:before {
-      content: url(../assets/images/promo-cards/Pencil.png);
-    }
   }
 
   .promo-card_green {
     background-color: #1bbc9b;
-
-    .promo-card-h3:before {
-      content: url(../assets/images/promo-cards/Crown.png);
-    }
   }
 
   .promo-card_purple {
     background-color: #9b58b5;
-
-    .promo-card-h3:before {
-      content: url(../assets/images/promo-cards/User.png);
-    }
   }
 
 
