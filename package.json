@@ -4,7 +4,7 @@
   "description": "task for lab",
   "main": "webpack.config.js",
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "normalize.scss": "^0.1.0",
     "sass-loader": "^8.0.0"
   },
